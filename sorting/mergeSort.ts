@@ -1,4 +1,4 @@
-export default function MergeSort(items: number[]): number[] {
+export default function mergeSort(items: number[]): number[] {
   return divide(items);
 }
 
