@@ -20,6 +20,9 @@ for (let index = 0; index < NUMBER_OF_ITEMS; index++) {
 function timeToSort(algoritm: Function, array: number[]) {
   console.time(`${algoritm.name} sorting ${NUMBER_OF_ITEMS}`);
   console.log(algoritm(array, 1, NUMBER_OF_ITEMS));
+
+
+}Supongamos que aquí le damos un cambio
   console.timeEnd(`${algoritm.name} sorting ${NUMBER_OF_ITEMS}`);
 }
 
